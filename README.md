@@ -11,3 +11,9 @@ To build simply run:
 ```bash
 make
 ```
+
+…to test the built executable you can use the following:
+
+```bash
+make test
+```
