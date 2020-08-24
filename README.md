@@ -17,3 +17,14 @@ make
 ```bash
 make test
 ```
+
+Example
+=======
+
+The `example` directory contains a binary encoded JSON file containing movie data from the 2010's.
+
+You can use `bin2json` to convert it into normal JSON using the following command:
+
+```bash
+bin2json movies.bin > movies.json
+```
